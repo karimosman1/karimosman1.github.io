@@ -1,6 +1,6 @@
 # Karim Osman — personal portfolio
 
-A static Jekyll site for `karimosman1.github.io`. The site source is in this repository’s root so GitHub Pages can publish it directly from the `main` branch and `/(root)`.
+A static, single-page Jekyll portfolio for `karimosman1.github.io`. The site source is in this repository’s root so GitHub Pages can publish it directly from the `main` branch and `/(root)`.
 
 ## Publish with GitHub Pages
 
@@ -13,11 +13,12 @@ The configured site URL is `https://karimosman1.github.io` and `baseurl` is inte
 
 ## Update the content
 
-- Edit `index.md`, `about.md`, `work-experience.md`, or `contact.md`. Each page uses YAML front matter for its title, description, and URL.
-- Shared navigation is in `_config.yml`; the common page layout and reusable header, footer, and head elements are in `_layouts/` and `_includes/`.
+- Edit `index.md` to update the homepage, résumé sections, and contact details.
+- The top-right navigation in `_config.yml` jumps to sections on the homepage. The old `/about/`, `/work-experience/`, and `/contact/` URLs redirect to those sections.
+- The common page layout and reusable header, footer, and head elements are in `_layouts/` and `_includes/`.
 - Update styling in `assets/css/styles.css` and the browser icon in `assets/images/favicon.svg`.
 - The Contact page publishes Karim's confirmed LinkedIn profile, email link, and tap-to-call phone link. Update those details in `contact.md`.
-- No contact form or JavaScript is included.
+- The collapsible sections use native HTML; no JavaScript, contact form, or client-side library is included.
 
 ## Preview locally
 
@@ -39,7 +40,7 @@ With the local Jekyll preview running, open the site in Chrome. In Chrome DevToo
 - GitHub Pages’ built-in Jekyll publishing keeps the site static and avoids a custom deployment workflow.
 - `jekyll-seo-tag` supplies canonical and social metadata; `jekyll-sitemap` generates the sitemap.
 - Internal navigation and asset paths use Jekyll’s `relative_url` filter, while the GitHub user-site `baseurl` remains empty.
-- The pages use semantic HTML, a shared accessible layout, and local system fonts; no third-party trackers or client-side libraries are loaded.
+- The page uses semantic HTML, native keyboard-accessible disclosure sections, and local system fonts; no third-party trackers or client-side libraries are loaded.
 
 ## Assumptions
 
