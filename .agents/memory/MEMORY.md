@@ -1,0 +1,1 @@
+- [Artifact-owned workflows](managed-artifact-workflows.md) — managed preview workflows are coupled to their artifact and cannot be removed as standalone workflows.

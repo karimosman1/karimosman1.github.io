@@ -1,0 +1,13 @@
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="{{ '/' | relative_url }}" aria-label="Karim Osman, home">
+      <span class="brand-mark" aria-hidden="true">KO</span>
+      <span class="brand-name">Karim Osman</span>
+    </a>
+    <nav class="site-nav" aria-label="Main navigation">
+      {% for item in site.navigation %}
+        <a href="{{ item.url | relative_url }}"{% if item.url == page.url %} aria-current="page"{% endif %}>{{ item.title }}</a>
+      {% endfor %}
+    </nav>
+  </div>
+</header>

@@ -1,0 +1,48 @@
+title: Karim Osman
+description: "Karim Osman — MBA candidate at London Business School with experience in strategy, AI operations, and analytics."
+url: "https://karimosman1.github.io"
+baseurl: ""
+lang: en
+author:
+  name: Karim Osman
+
+markdown: kramdown
+permalink: pretty
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+navigation:
+  - title: Home
+    url: /
+  - title: About
+    url: /about/
+  - title: Work Experience
+    url: /work-experience/
+  - title: Contact
+    url: /contact/
+
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: default
+
+exclude:
+  - .agents
+  - .bundle
+  - .cache
+  - .conversation
+  - .git
+  - .gitignore
+  - .local
+  - Gemfile
+  - Gemfile.lock
+  - PLAN.md
+  - README.md
+  - .replit
+  - .replitignore
+  - replit.md
+  - vendor
