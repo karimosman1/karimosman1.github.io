@@ -7,9 +7,9 @@ Create a publish-ready, root-level Jekyll site for Karim Osman at `karimosman1.g
 - **Home:** concise introduction, education highlights, and a clear path to experience and contact.
 - **About:** MBA and engineering education, technical skills, languages, volunteering, clubs, and interests.
 - **Work Experience:** supplied roles and achievements at ETHOS AI, Oliver Wyman, and Booz Allen Hamilton.
-- **Contact:** LinkedIn contact only; no public email link or contact form.
+- **Contact:** confirmed LinkedIn profile and phone number; no public email link or contact form.
 
-All biography and achievement details will come from the supplied résumé text. Nothing will be added as a factual claim unless supplied. The LinkedIn text (`www.linkedin.com/in/karim osman1`) contains a space and will remain a clearly marked placeholder until corrected.
+All biography and achievement details will come from the supplied résumé text or later user-confirmed updates. Nothing will be added as a factual claim unless supplied. The confirmed LinkedIn profile and phone number are displayed on the Contact page; email remains unpublished.
 
 ## Design and implementation
 - Light-only, responsive, accessible, single-column layout with a technical typographic feel; no reference sites were provided.
