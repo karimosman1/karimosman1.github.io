@@ -15,13 +15,13 @@ plugins:
 
 navigation:
   - title: Home
-    url: /
+    url: /#home
   - title: About
-    url: /about/
+    url: /#about
   - title: Work Experience
-    url: /work-experience/
+    url: /#experience
   - title: Contact
-    url: /contact/
+    url: /#contact
 
 defaults:
   - scope:
@@ -39,6 +39,7 @@ exclude:
   - .gitignore
   - .local
   - Change1.md
+  - Change2.md
   - Gemfile
   - Gemfile.lock
   - PLAN.md

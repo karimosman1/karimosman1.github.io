@@ -159,7 +159,8 @@ a:focus-visible {
 
 h1,
 h2,
-h3 {
+h3,
+h4 {
   color: var(--ink);
   line-height: 1.2;
   text-wrap: balance;
@@ -182,6 +183,11 @@ h2 {
 h3 {
   margin: 1.8rem 0 0.3rem;
   font-size: 1.12rem;
+}
+
+h4 {
+  margin: 1.4rem 0 0.25rem;
+  font-size: 1rem;
 }
 
 p {
@@ -265,6 +271,40 @@ p {
 
 .page-content h3 + p {
   color: var(--muted);
+}
+
+.page-content h4 + p {
+  color: var(--muted);
+}
+
+.page-disclosure {
+  scroll-margin-top: 1rem;
+}
+
+.page-disclosure > summary {
+  padding: 0.8rem 0;
+  color: var(--accent-deep);
+  border-top: 1px solid var(--line);
+  cursor: pointer;
+}
+
+.page-disclosure > summary:focus-visible {
+  outline: 3px solid var(--focus);
+  outline-offset: 4px;
+  border-radius: 2px;
+}
+
+.page-disclosure > summary h2 {
+  display: inline;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: clamp(1.35rem, 4vw, 1.7rem);
+  letter-spacing: -0.025em;
+}
+
+.page-disclosure[open] > summary {
+  margin-bottom: 0.75rem;
 }
 
 .page-content strong {
