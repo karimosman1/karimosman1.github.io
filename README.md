@@ -16,8 +16,8 @@ The configured site URL is `https://karimosman1.github.io` and `baseurl` is inte
 - Edit `index.md`, `about.md`, `work-experience.md`, or `contact.md`. Each page uses YAML front matter for its title, description, and URL.
 - Shared navigation is in `_config.yml`; the common page layout and reusable header, footer, and head elements are in `_layouts/` and `_includes/`.
 - Update styling in `assets/css/styles.css` and the browser icon in `assets/images/favicon.svg`.
-- Search for `placeholder` in `contact.md` and replace it with a confirmed LinkedIn URL before publishing.
-- No public email address, phone number, contact form, or JavaScript is included.
+- The Contact page publishes Karim's confirmed LinkedIn profile, email link, and tap-to-call phone link. Update those details in `contact.md`.
+- No contact form or JavaScript is included.
 
 ## Preview locally
 
@@ -44,6 +44,5 @@ With the local Jekyll preview running, open the site in Chrome. In Chrome DevToo
 ## Assumptions
 
 - No reference websites were provided, so the visual treatment is original, light, and technical.
-- The supplied LinkedIn text contains a space. It is not used as a link until a valid profile URL is confirmed.
-- The email address and phone number supplied in the résumé are intentionally omitted from the public site.
+- The LinkedIn profile URL, email address, and phone number are confirmed for public display on the Contact page.
 - Résumé facts are used as provided; no employers, clients, achievements, or metrics have been added.

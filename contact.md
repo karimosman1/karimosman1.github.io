@@ -1,6 +1,6 @@
 ---
 title: Contact
-description: "Contact Karim Osman through his LinkedIn profile."
+description: "Connect with Karim Osman on LinkedIn, by email, or by phone."
 permalink: /contact/
 nav_order: 4
 ---
@@ -11,6 +11,12 @@ I’m happy to connect about strategy, AI, analytics, and related opportunities.
 
 ## LinkedIn
 
-**Profile link placeholder:** add a confirmed LinkedIn profile URL before publishing. The address supplied in the résumé contains a space, so it has not been turned into a link.
+[Connect with Karim on LinkedIn](https://www.linkedin.com/in/karim-osman1)
 
-No email address or phone number is published on this site.
+## Email
+
+[karimosman@berkeley.edu](mailto:karimosman@berkeley.edu)
+
+## Phone
+
+[+1 (510) 929-7426](tel:+15109297426)

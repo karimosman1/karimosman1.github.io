@@ -38,6 +38,7 @@ exclude:
   - .git
   - .gitignore
   - .local
+  - Change1.md
   - Gemfile
   - Gemfile.lock
   - PLAN.md
